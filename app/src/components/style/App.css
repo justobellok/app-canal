@@ -1,0 +1,12 @@
+body{
+    background: rgb(245, 245, 245);
+    margin: 4px;
+}
+
+.main{
+margin-top: 150px;
+font-family: "poppins";
+display: grid;
+grid-template-columns: 20fr 80fr;
+
+}

@@ -1,0 +1,38 @@
+.image{
+    width: 100%;
+   height: 550PX;
+display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+    border-radius: 6px;
+   cursor: pointer;
+}
+
+.text-error{
+    color: red;
+}
+
+.icon-error{
+    color: red;
+    font-size: 25px;
+    margin: 5px;
+    cursor: pointer;
+    animation: move .4s both infinite alternate;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+        color:purple;
+    }
+}

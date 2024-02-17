@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    height: 400px;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+}
+
+.title-canal{
+    font-size: 30px;
+ text-align: left;
+
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.video{
+    width: 130px;
+    height: 90px;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    border-radius: 4px;
+}
+
+.info{
+    max-width: 30ch;
+    font-family: "outfit";
+}
+
+.canal-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.canal-aside button{
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    background: none;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+   gap: 5px;
+    align-items: center;
+}
+
+.canal-aside button:hover{
+    transform: translateY(-5px);
+}
